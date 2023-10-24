@@ -1,4 +1,5 @@
-Trivial Desklets starter project for Linux Mint Cinnamon desktop.
+
+# Trivial Desklets starter project for Linux Mint Cinnamon desktop.
 
 I'm not sure if this will continue but I need a refresher project, and something on Linux to get my feet wet.
 
