@@ -1,0 +1,8 @@
+{
+    "max-instances": "10",
+    "uuid": "time_simple@4t0m1c4",
+    "name": "Time Simple",
+    "description": "Yet another time display desklet.",
+    "version": "0.1",
+    "prevent-decorations": false
+}
