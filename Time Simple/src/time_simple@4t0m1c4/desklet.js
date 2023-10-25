@@ -1,4 +1,4 @@
-const Deskklet = imports.ui.desklet;
+const Desklet = imports.ui.desklet;
 const St = imports.gi.St;
 
 function MyDesklet(metadata, desklet_id) {
