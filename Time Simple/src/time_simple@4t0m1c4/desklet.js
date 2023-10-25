@@ -18,6 +18,7 @@ MyDesklet.prototype = {
         this.window = new St.Bin();
         this.text = new St.Label({ text: "Hello Desktop" });
         this.window.add_actor(this.text);
+        this.setContent(this.window);
     },
 
 }
