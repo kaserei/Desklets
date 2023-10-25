@@ -22,3 +22,7 @@ MyDesklet.prototype = {
 
 }
 
+function main(metadata, desklet_id) {
+    return new MyDesklet(metadata, desklet_id);
+}
+
