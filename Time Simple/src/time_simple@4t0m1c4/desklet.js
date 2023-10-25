@@ -10,7 +10,7 @@ MyDesklet.prototype = {
     __proto__: Desklet.Desklet.prototype,
 
     _init: function (metadata, desklet_id) {
-        Desklet.Desklet.prototype._init.call(this.metadata, desklet_id);
+        Desklet.Desklet.prototype._init.call(this, metadata, desklet_id);
         this.setupUI();
     },
 
