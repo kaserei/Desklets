@@ -6,17 +6,19 @@ function HelloDesklet(metadata, desklet_id) {
 }
 
 function main(metadata, desklet_id) {
-	return new HelloDesklet(metadata, desklet_id);
+    return new HelloDesklet(metadata, desklet_id);
 }
 
 
 HelloDesklet.prototype = {
-	__proto__: Desklet.Desklet.prototype,
+    __proto__: Desklet.Desklet.prototype,
 
-	_init: function(metadata, desklet_id) {
-		Desklet.Desklet.prototype._init.call(this, metadata);
+    _init: function (metadata, desklet_id) {
+
+        Desklet.Desklet.prototype._init.call(this, metadata);
 
         this.setupUI();
+
     },
 
     setupUI: function () {
